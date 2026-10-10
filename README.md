@@ -43,7 +43,7 @@ student:
 
 Unlike typical student portfolios that only feature basic tutorial clones, I focus on **under-the-hood engineering, system resilience, and clean software architecture**:
 
-1. **⚡ Real-Time Systems & WebSockets:** Engineered high-throughput WebSocket fan-out pipelines with backpressure shedding and server clock-skew compensation (< 15ms p95 latency).
+1. **⚡ High-Performance Web Applications:** Engineered responsive dashboards and full-stack web applications with sub-second response times, interactive analytics, and robust API design.
 2. **☕ Object-Oriented Design in Java:** Emphasize clean abstractions, SOLID principles, encapsulation, and robust OOP practices.
 3. **🗄️ Database Architecture:** Hands-on schema design, query optimization, and transaction safety using **SQL** and **MongoDB**.
 4. **🧠 Practical AI & Edge Vision:** Deployed YOLOv8 models with multi-frame confirmation to suppress false alarms, running non-blocking multi-threaded emergency alerting.
@@ -55,41 +55,23 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🚆 <a href="https://github.com/omingole87/transit-board">BharatRail Live — Realtime Transit Pipeline</a></h3>
+      <h3 align="center">💳 <a href="https://github.com/omingole87/spendtracker">SpendTracker — Instant Personal Finance Dashboard</a></h3>
       <p align="center">
+        <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQL-Database-336791?style=flat-square&logo=mysql&logoColor=white" />
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-        <img src="https://img.shields.io/badge/WebSocket-Sub--Second%20Push-010101?style=flat-square" />
-        <img src="https://img.shields.io/badge/Indian%20Railways-CRIS%2FIRCTC-FF9933?style=flat-square" />
-        <img src="https://img.shields.io/badge/Bilingual-EN%20%7C%20%E0%A4%B9%E0%A4%BF-138808?style=flat-square" />
       </p>
       <ul>
-        <li><b>Problem:</b> Stale 30-second polling departure boards fail travelers during rush hours.</li>
-        <li><b>Solution:</b> High-throughput WebSocket fan-out pipeline with backpressure protection and client clock-skew compensation across 8 major Indian railway hubs.</li>
-        <li><b>CS Concept:</b> Non-blocking I/O, event-driven architecture, ETag 304 caching fallback.</li>
+        <li><b>Problem:</b> Slow query times when scanning tens of thousands of financial records for monthly analytics.</li>
+        <li><b>Solution:</b> Composite index optimization `(user_id, occurred_at DESC)` and single-roundtrip aggregate queries delivering sub-millisecond responses.</li>
+        <li><b>CS Concept:</b> Query optimization, index selectivity, batch CSV data ingestion.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/omingole87/transit-board"><b>View Repository »</b></a>
+        <a href="https://omingole87.github.io/spendtracker/"><b>🚀 Launch Live Demo »</b></a> &nbsp;|&nbsp;
+        <a href="https://github.com/omingole87/spendtracker"><b>Code Repository »</b></a>
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🔥 <a href="https://github.com/omingole87/fire-smoke-detection">Real-Time Fire & Smoke AI Detection</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/YOLOv8-Ultralytics-FF5722?style=flat-square" />
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-        <img src="https://img.shields.io/badge/Telegram-API-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
-      </p>
-      <ul>
-        <li><b>Problem:</b> Optical noise causing false fire alarms and freezing video feeds during remote dispatch.</li>
-        <li><b>Solution:</b> Temporal consecutive-frame filter (≥5 frames) coupled with non-blocking multi-threaded acoustic siren, Telegram photo alerts, and CSV logging.</li>
-        <li><b>CS Concept:</b> Multithreading, producer-consumer pattern, edge deep learning inference.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/omingole87/fire-smoke-detection"><b>View Repository »</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3 align="center">🛒 <a href="https://github.com/omingole87/groceryflow">GroceryFlow E-Commerce Wizard</a></h3>
       <p align="center">
@@ -108,6 +90,25 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
         <a href="https://github.com/omingole87/groceryflow"><b>Code Repository »</b></a>
       </p>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🔥 <a href="https://github.com/omingole87/fire-smoke-detection">Real-Time Fire & Smoke AI Detection</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/YOLOv8-Ultralytics-FF5722?style=flat-square" />
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+        <img src="https://img.shields.io/badge/Telegram-API-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
+      </p>
+      <ul>
+        <li><b>Problem:</b> Optical noise causing false fire alarms and freezing video feeds during remote dispatch.</li>
+        <li><b>Solution:</b> Temporal consecutive-frame filter (≥5 frames) coupled with non-blocking multi-threaded acoustic siren, Telegram photo alerts, and CSV logging.</li>
+        <li><b>CS Concept:</b> Multithreading, producer-consumer pattern, edge deep learning inference.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/omingole87/fire-smoke-detection"><b>View Repository »</b></a>
+      </p>
+    </td>
     <td width="50%" valign="top">
       <h3 align="center">⚡ <a href="https://github.com/omingole87/invoicekit">InvoiceKit (India Edition)</a></h3>
       <p align="center">
@@ -123,26 +124,6 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
       </ul>
       <p align="center">
         <a href="https://github.com/omingole87/invoicekit"><b>View Repository »</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3 align="center">💳 <a href="https://github.com/omingole87/spendtracker">SpendTracker — Instant Personal Finance Dashboard</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/SQL-Database-336791?style=flat-square&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-      </p>
-      <ul>
-        <li><b>Problem:</b> Slow query times when scanning tens of thousands of financial records for monthly analytics.</li>
-        <li><b>Solution:</b> Composite index optimization `(user_id, occurred_at DESC)` and single-roundtrip aggregate queries delivering sub-millisecond responses.</li>
-        <li><b>CS Concept:</b> Query optimization, index selectivity, batch CSV data ingestion.</li>
-      </ul>
-      <p align="center">
-        <a href="https://omingole87.github.io/spendtracker/"><b>🚀 Launch Live Demo »</b></a> &nbsp;|&nbsp;
-        <a href="https://github.com/omingole87/spendtracker"><b>Code Repository »</b></a>
       </p>
     </td>
   </tr>
