@@ -12,11 +12,6 @@
   <img src="https://img.shields.io/badge/Focus-SDE%20Internship%20Prep-EC4899?style=for-the-badge" alt="Internship Prep" />
 </p>
 
-<!-- Profile Visitor Counter -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=omingole87&color=6366f1&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-</p>
-
 ---
 
 </div>
