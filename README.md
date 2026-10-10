@@ -141,7 +141,8 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
         <li><b>CS Concept:</b> Query optimization, index selectivity, batch CSV data ingestion.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/omingole87/spendtracker"><b>View Repository »</b></a>
+        <a href="https://omingole87.github.io/spendtracker/"><b>🚀 Launch Live Demo »</b></a> &nbsp;|&nbsp;
+        <a href="https://github.com/omingole87/spendtracker"><b>Code Repository »</b></a>
       </p>
     </td>
   </tr>
