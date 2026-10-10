@@ -123,7 +123,8 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
         <li><b>CS Concept:</b> Monorepo architecture, design tokens, universal polymorphic rendering.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/omingole87/invoicekit"><b>View Repository »</b></a>
+        <a href="https://omingole87.github.io/invoicekit/"><b>🚀 Launch Live Demo »</b></a> &nbsp;|&nbsp;
+        <a href="https://github.com/omingole87/invoicekit"><b>Code Repository »</b></a>
       </p>
     </td>
   </tr>
