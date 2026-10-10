@@ -1,43 +1,61 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
+<!-- Animated Dynamic Typing Banner -->
 <a href="https://github.com/omingole87">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=650&lines=%F0%9F%91%8B+Hi+there%2C+I'm+Om+Ingole;Full-Stack+%26+Systems+Software+Developer;AI+%26+Computer+Vision+Innovator;Building+Resilient%2C+Real-World+Applications;CS+%40+SSGMCE+Shegaon" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=650&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Om+Ingole;%F0%9F%8E%93+2nd+Year+Information+Technology+%40+SSGMCE;%F0%9F%92%BB+Aspiring+Software+Development+Engineer;%E2%9A%A1+Building+Full-Stack%2C+Real-Time+Pipelines+%26+AI;%E2%98%95+Passionate+DSA+Problem+Solver" alt="Typing Banner" />
 </a>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Full%20Stack%20%7C%20AI%2FML%20%7C%20Systems-6366F1?style=for-the-badge" alt="Focus" />
-  <img src="https://img.shields.io/badge/Institution-SSGMCE%20Shegaon-059669?style=for-the-badge" alt="SSGMCE" />
-  <img src="https://img.shields.io/badge/Status-Building%20%26%20Learning-F59E0B?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Year-2nd%20Year%20%2F%20Sophomore-6366F1?style=for-the-badge&logo=codeforces&logoColor=white" alt="2nd Year" />
+  <img src="https://img.shields.io/badge/Branch-Information%20Technology-059669?style=for-the-badge&logo=academia&logoColor=white" alt="Information Technology" />
+  <img src="https://img.shields.io/badge/College-SSGMCE%20Shegaon-F59E0B?style=for-the-badge" alt="SSGMCE Shegaon" />
+  <img src="https://img.shields.io/badge/Focus-SDE%20Internship%20Prep-EC4899?style=for-the-badge" alt="Internship Prep" />
 </p>
 
-<!-- Live Profile Visitors Badge -->
+<!-- Profile Visitor Counter -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=omingole87&color=6366f1&style=flat-square&label=PROFILE+VISITS" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=omingole87&color=6366f1&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
 ---
 
 </div>
 
-## 👨‍💻 About Me
+## 📌 Executive Summary
+
+> *"I am a **2nd-year Information Technology undergraduate** at **Shri Sant Gajanan Maharaj College of Engineering (SSGMCE)**. I believe the best way to master computer science is by building real, production-ready software that solves concrete problems — from sub-second real-time streaming to computer vision emergency alerting."*
 
 ```yaml
-name: Om Ingole
-education: Computer Science & Engineering @ SSGMCE (Shri Sant Gajanan Maharaj College of Engineering)
-location: Maharashtra, India
-interests:
-  - Full-Stack Web Architecture & Resilient State Machines
-  - Real-Time Computer Vision & Edge AI (YOLOv8, OpenCV)
-  - Modular Monorepos, Component Libraries & Design Systems
-  - High-Concurrency Backend Systems & PostgreSQL
-currently_building: Real-world production-grade applications with modern TypeScript & Python
-open_to: Collaborative projects, internships, open source contributions
+student:
+  name: Om Ingole
+  role: 2nd Year B.E. / B.Tech Undergrad (Information Technology)
+  institution: Shri Sant Gajanan Maharaj College of Engineering (SSGMCE), Shegaon
+  location: Maharashtra, India
+  current_focus:
+    - Data Structures & Algorithms (Java)
+    - Full-Stack Web Development & Real-Time WebSockets
+    - Concurrency, Database Indexing & ACID Transactions
+    - Computer Vision & Edge AI (YOLOv8, OpenCV)
+  goals:
+    - SDE Internship Opportunities (Summer 2025/2026)
+    - Hackathons & Open Source Contributions
+    - Scaling real-time distributed applications
 ```
 
 ---
 
-## 🚀 Featured Projects
+## 🎯 What Sets My Profile Apart
+
+Unlike typical student portfolios that only feature basic tutorial clones, I focus on **under-the-hood engineering, system resilience, and core CS fundamentals**:
+
+1. **⚡ Real-Time Systems & Concurrency:** Built WebSocket fan-out pipelines with backpressure shedding and server clock-skew compensation (< 15ms p95 latency).
+2. **🛡️ Concurrency-Guarded Databases:** Solved race conditions using PostgreSQL row-level locks and atomic updates (`UPDATE ... WHERE capacity_used < capacity`).
+3. **🧠 Practical AI & Edge Vision:** Deployed YOLOv8 models with multi-frame confirmation to suppress false alarms, running non-blocking multi-threaded emergency alerting.
+4. **☕ Strong Core Foundations:** Actively solving DSA problems in Java with a deep appreciation for algorithmic time/space complexities.
+
+---
+
+## 🚀 Featured Engineering Projects
 
 <table>
   <tr>
@@ -50,11 +68,12 @@ open_to: Collaborative projects, internships, open source contributions
         <img src="https://img.shields.io/badge/Bilingual-EN%20%7C%20%E0%A4%B9%E0%A4%BF-138808?style=flat-square" />
       </p>
       <ul>
-        <li><b>High-Throughput Departures Fan-out:</b> Sub-second WebSocket push (&lt;15ms p95) across 8 major Indian railway hubs with backpressure isolation.</li>
-        <li><b>Robust Engineering:</b> Server clock-skew compensation, HTTP ETag 304 polling fallback, and GTFS transit simulator with 1-click delay injection.</li>
+        <li><b>Problem:</b> Stale 30-second polling departure boards fail travelers during rush hours.</li>
+        <li><b>Solution:</b> High-throughput WebSocket fan-out pipeline with backpressure protection and client clock-skew compensation across 8 major Indian railway hubs.</li>
+        <li><b>CS Concept:</b> Non-blocking I/O, event-driven architecture, ETag 304 caching fallback.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/omingole87/transit-board"><b>Explore Code »</b></a>
+        <a href="https://github.com/omingole87/transit-board"><b>View Repository »</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -66,11 +85,12 @@ open_to: Collaborative projects, internships, open source contributions
         <img src="https://img.shields.io/badge/Telegram-API-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
       </p>
       <ul>
-        <li><b>Computer Vision Hazard Engine:</b> Live webcam hazard tracking with temporal multi-frame confirmation to prevent false alarms.</li>
-        <li><b>Emergency Pipeline:</b> Non-blocking background acoustic buzzer, instant Telegram photo snapshots dispatch, and CSV audit logging.</li>
+        <li><b>Problem:</b> Optical noise causing false fire alarms and freezing video feeds during remote dispatch.</li>
+        <li><b>Solution:</b> Temporal consecutive-frame filter (≥5 frames) coupled with non-blocking multi-threaded acoustic siren, Telegram photo alerts, and CSV logging.</li>
+        <li><b>CS Concept:</b> Multithreading, producer-consumer pattern, edge deep learning inference.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/omingole87/fire-smoke-detection"><b>Explore Code »</b></a>
+        <a href="https://github.com/omingole87/fire-smoke-detection"><b>View Repository »</b></a>
       </p>
     </td>
   </tr>
@@ -80,15 +100,16 @@ open_to: Collaborative projects, internships, open source contributions
       <p align="center">
         <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
       </p>
       <ul>
-        <li><b>Zero-Friction Checkout:</b> Server-side functional state machine keeping sessions refresh-proof across all devices.</li>
-        <li><b>Atomic Concurrency Guards:</b> Row-level locking on delivery slot capacity with built-in stress-test simulation tools.</li>
+        <li><b>Problem:</b> Multi-step checkout churn and race conditions when reserving last-available delivery slots.</li>
+        <li><b>Solution:</b> Server-persisted pure functional state machine with atomic PostgreSQL row-level locks preventing overbooking under high concurrency.</li>
+        <li><b>CS Concept:</b> ACID transactions, database row locks, deterministic state machines.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/omingole87/groceryflow"><b>Explore Code »</b></a>
+        <a href="https://github.com/omingole87/groceryflow"><b>View Repository »</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -100,11 +121,12 @@ open_to: Collaborative projects, internships, open source contributions
         <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
       </p>
       <ul>
-        <li><b>Indian Invoicing Engine:</b> Native GST (CGST/SGST/IGST), HSN/SAC codes, Indian numbering (₹ Lakhs & Crores), and UPI VPA support.</li>
-        <li><b>Universal Renderer:</b> Single canonical schema rendered cleanly to React DOM, vector PDF, and inline-CSS email HTML.</li>
+        <li><b>Problem:</b> Code duplication across invoice formats (web, vector PDF, email) and complex Indian tax compliance.</li>
+        <li><b>Solution:</b> Modular npm workspaces monorepo with 24 WCAG AA components, GST rules (CGST/SGST/IGST), UPI VPAs, and universal renderers.</li>
+        <li><b>CS Concept:</b> Monorepo architecture, design tokens, universal polymorphic rendering.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/omingole87/invoicekit"><b>Explore Code »</b></a>
+        <a href="https://github.com/omingole87/invoicekit"><b>View Repository »</b></a>
       </p>
     </td>
   </tr>
@@ -118,26 +140,28 @@ open_to: Collaborative projects, internships, open source contributions
         <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=flat-square&logo=redis&logoColor=white" />
       </p>
       <ul>
-        <li><b>Sub-Millisecond Querying:</b> Engineered around composite B-tree indices `(user_id, occurred_at DESC)` and single-roundtrip PostgreSQL CTE aggregates.</li>
-        <li><b>High-Scale Analytics:</b> Fast category breakdown, monthly budget pacing, CSV batch imports, and automated categorization rules.</li>
+        <li><b>Problem:</b> Slow query times when scanning tens of thousands of financial records for monthly analytics.</li>
+        <li><b>Solution:</b> Composite B-tree index `(user_id, occurred_at DESC)` and single-roundtrip PostgreSQL CTE aggregate endpoints with Redis caching.</li>
+        <li><b>CS Concept:</b> Database query optimization, index selectivity, Redis cache-aside.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/omingole87/spendtracker"><b>Explore Code »</b></a>
+        <a href="https://github.com/omingole87/spendtracker"><b>View Repository »</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">☕ <a href="https://github.com/omingole87">Algorithms & Systems Practice</a></h3>
+      <h3 align="center">☕ <a href="https://github.com/omingole87">Data Structures & Core CS Repository</a></h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
         <img src="https://img.shields.io/badge/DSA-Data%20Structures-4B5563?style=flat-square" />
-        <img src="https://img.shields.io/badge/Clean%20Code-059669?style=flat-square" />
+        <img src="https://img.shields.io/badge/Algorithms-Optimization-059669?style=flat-square" />
       </p>
       <ul>
-        <li><b>Algorithmic Problem Solving:</b> Optimized data structures, memory layout, dynamic programming, and graph traversal.</li>
-        <li><b>Core OOP:</b> Clean architecture, modular abstractions, and design patterns.</li>
+        <li><b>Problem:</b> Building rigorous algorithmic thinking for competitive problem-solving and technical interviews.</li>
+        <li><b>Solution:</b> Hands-on implementations of Linear & Non-Linear Data Structures, Recursion, Dynamic Programming, and Graph Traversals in Java.</li>
+        <li><b>CS Concept:</b> Time/Space complexity analysis, cache locality, memory overhead.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/omingole87"><b>Explore Repositories »</b></a>
+        <a href="https://github.com/omingole87"><b>View Code »</b></a>
       </p>
     </td>
   </tr>
@@ -145,46 +169,50 @@ open_to: Collaborative projects, internships, open source contributions
 
 ---
 
-## 🛠️ Tech Stack & Toolbox
+## 🛠️ Technical Skills & IT Toolbox
 
 <div align="center">
 
-### 💻 Languages
+### 💻 Programming Languages
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+### 🌐 Web & Full-Stack Development
+![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### 🎨 Frontend & Design
-![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-
-### ⚙️ Backend, AI & Storage
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+### 🗄️ Databases & Caching
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+
+### 🤖 Computer Vision & AI Tools
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-FF5722?style=for-the-badge)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
-### 🧰 Tools & Engineering Workflow
+### ⚙️ Developer Tools & DevOps
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 Live GitHub Insights & Activity
+## 📈 Activity & GitHub Metrics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=omingole87&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="175" alt="GitHub Stats" />
@@ -197,58 +225,52 @@ open_to: Collaborative projects, internships, open source contributions
 
 ---
 
-## 🐍 Contribution Eater (Interactive Snake)
+## 🎓 Academic Background & IT Coursework
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omingole87/omingole87/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omingole87/omingole87/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/omingole87/omingole87/output/github-contribution-grid-snake.svg">
-</picture>
-
-*(Automatically powered daily by GitHub Actions eating recent contribution squares!)*
-
-</div>
-
----
-
-## 💡 Expand to Know More
-
-<details>
-  <summary><b>🎯 Engineering Philosophy & Standards</b></summary>
+<details open>
+  <summary><b>🏫 Shri Sant Gajanan Maharaj College of Engineering (SSGMCE)</b></summary>
   <br>
   <ul>
-    <li><b>Zero Bloat, High Reliability:</b> Prefer simple, robust architectures over unnecessary layers of complexity.</li>
-    <li><b>Resilience Under Edge Cases:</b> Protect transactions with database-level concurrency locks rather than trusting client state.</li>
-    <li><b>Clean Separation of Concerns:</b> Structure code into modular libraries, reusable UI packages, and clean service layers.</li>
-    <li><b>Security First:</b> Environment isolation for all API credentials and zero secrets checked into version control.</li>
+    <li><b>Program:</b> Bachelor of Engineering (B.E.) in <b>Information Technology (IT)</b></li>
+    <li><b>Current Standing:</b> 2nd Year / 3rd & 4th Semester</li>
+    <li><b>Affiliation:</b> Sant Gadge Baba Amravati University (SGBAU)</li>
+    <li><b>Core Academic Coursework:</b>
+      <ul>
+        <li>Data Structures & Algorithms (Linear & Non-linear data structures, Sorting & Searching)</li>
+        <li>Object-Oriented Programming (Java & C++)</li>
+        <li>Database Management Systems (Relational algebra, SQL, Normalization, ACID)</li>
+        <li>Computer Networks & Internet Technologies (OSI model, TCP/IP, HTTP/WebSockets)</li>
+        <li>Discrete Mathematics & Logic</li>
+        <li>Operating Systems & System Architecture</li>
+      </ul>
+    </li>
   </ul>
 </details>
 
 <details>
-  <summary><b>🎓 Academic Journey & College Affiliation</b></summary>
+  <summary><b>🎯 2nd-Year Roadmap & Goals (2025 - 2026)</b></summary>
   <br>
   <ul>
-    <li><b>College:</b> Shri Sant Gajanan Maharaj College of Engineering (SSGMCE), Shegaon, Maharashtra.</li>
-    <li><b>Degree:</b> Bachelor of Engineering in Computer Science & Engineering.</li>
-    <li><b>Key Coursework:</b> Data Structures & Algorithms, Database Management Systems, Computer Networks, Operating Systems, Object-Oriented Programming.</li>
+    <li><b>DSA Mastery:</b> Solve 250+ curated problems across LeetCode / GFG, targeting Arrays, Strings, Trees, Graphs, and DP in Java.</li>
+    <li><b>System Design Foundations:</b> Study scalability principles (Load balancing, Caching, DB Sharding, Message Queues).</li>
+    <li><b>Hackathons & Team Projects:</b> Collaborate with peers on real-world civic and college tech solutions.</li>
+    <li><b>Internship Readiness:</b> Prepare for Software Development Engineer (SDE) summer internship interviews.</li>
   </ul>
 </details>
 
 <details>
-  <summary><b>⚡ Current Focus & Explorations</b></summary>
+  <summary><b>💡 My Philosophy as a Young Engineer</b></summary>
   <br>
   <ul>
-    <li>Refining real-time computer vision deployment for embedded edge devices (Raspberry Pi & Jetson).</li>
-    <li>Deepening knowledge of distributed transactions and event-driven architectures.</li>
-    <li>Building developer-first tools with TypeScript and Rust.</li>
+    <li><b>Learn by Breaking & Building:</b> Reading documentation is necessary, but building edge cases and benchmark tests is where real understanding happens.</li>
+    <li><b>Clean Code over Clever Code:</b> Write code that your future self and your teammates can easily read, debug, and maintain.</li>
+    <li><b>Stay Curious & Humble:</b> Technology evolves fast; consistency and continuous practice beat passive knowledge every time.</li>
   </ul>
 </details>
 
 ---
 
-## 📬 Let's Connect & Collaborate!
+## 📬 Let's Connect!
 
 <div align="center">
 
@@ -267,6 +289,6 @@ open_to: Collaborative projects, internships, open source contributions
 <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Random Dev Joke" />
 
 <br>
-<sub>Designed with passion & engineered with precision by Om Ingole ✨</sub>
+<sub>Crafted with passion by Om Ingole • 2nd Year IT @ SSGMCE ✨</sub>
 
 </div>
