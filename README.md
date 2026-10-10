@@ -2,7 +2,7 @@
 
 <!-- Animated Dynamic Typing Banner -->
 <a href="https://github.com/omingole87">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=650&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Om+Ingole;%F0%9F%8E%93+2nd+Year+Information+Technology+%40+SSGMCE;%F0%9F%92%BB+Aspiring+Software+Development+Engineer;%E2%9A%A1+Building+Full-Stack%2C+Real-Time+Pipelines+%26+AI;%E2%98%95+Passionate+DSA+Problem+Solver" alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=650&lines=%F0%9F%91%8B+Hey+there%2C+I'm+Om+Ingole;%F0%9F%8E%93+2nd+Year+Information+Technology+%40+SSGMCE;%F0%9F%92%BB+Aspiring+Software+Development+Engineer;%E2%9A%A1+Building+Full-Stack%2C+Real-Time+Pipelines+%26+AI;%E2%98%95+Java+OOP+%26+Web+Systems+Builder" alt="Typing Banner" />
 </a>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 ## 📌 Executive Summary
 
-> *"I am a **2nd-year Information Technology undergraduate** at **Shri Sant Gajanan Maharaj College of Engineering (SSGMCE)**. I believe the best way to master computer science is by building real, production-ready software that solves concrete problems — from sub-second real-time streaming to computer vision emergency alerting."*
+> *"I am a **2nd-year Information Technology undergraduate** at **Shri Sant Gajanan Maharaj College of Engineering (SSGMCE)**. I am passionate about object-oriented software engineering with Java, full-stack web development, database design with SQL & MongoDB, and real-time computer vision systems."*
 
 ```yaml
 student:
@@ -32,26 +32,26 @@ student:
   institution: Shri Sant Gajanan Maharaj College of Engineering (SSGMCE), Shegaon
   location: Maharashtra, India
   current_focus:
-    - Data Structures & Algorithms (Java)
+    - Object-Oriented Software Design (Java)
     - Full-Stack Web Development & Real-Time WebSockets
-    - Concurrency, Database Indexing & ACID Transactions
+    - Relational & Document Databases (SQL & MongoDB)
     - Computer Vision & Edge AI (YOLOv8, OpenCV)
   goals:
     - SDE Internship Opportunities (Summer 2025/2026)
-    - Hackathons & Open Source Contributions
-    - Scaling real-time distributed applications
+    - Hackathons & Open Source Collaborations
+    - Designing reliable, high-throughput software architectures
 ```
 
 ---
 
 ## 🎯 What Sets My Profile Apart
 
-Unlike typical student portfolios that only feature basic tutorial clones, I focus on **under-the-hood engineering, system resilience, and core CS fundamentals**:
+Unlike typical student portfolios that only feature basic tutorial clones, I focus on **under-the-hood engineering, system resilience, and clean software architecture**:
 
-1. **⚡ Real-Time Systems & Concurrency:** Built WebSocket fan-out pipelines with backpressure shedding and server clock-skew compensation (< 15ms p95 latency).
-2. **🛡️ Concurrency-Guarded Databases:** Solved race conditions using PostgreSQL row-level locks and atomic updates (`UPDATE ... WHERE capacity_used < capacity`).
-3. **🧠 Practical AI & Edge Vision:** Deployed YOLOv8 models with multi-frame confirmation to suppress false alarms, running non-blocking multi-threaded emergency alerting.
-4. **☕ Strong Core Foundations:** Actively solving DSA problems in Java with a deep appreciation for algorithmic time/space complexities.
+1. **⚡ Real-Time Systems & WebSockets:** Engineered high-throughput WebSocket fan-out pipelines with backpressure shedding and server clock-skew compensation (< 15ms p95 latency).
+2. **☕ Object-Oriented Design in Java:** Emphasize clean abstractions, SOLID principles, encapsulation, and robust OOP practices.
+3. **🗄️ Database Architecture:** Hands-on schema design, query optimization, and transaction safety using **SQL** and **MongoDB**.
+4. **🧠 Practical AI & Edge Vision:** Deployed YOLOv8 models with multi-frame confirmation to suppress false alarms, running non-blocking multi-threaded emergency alerting.
 
 ---
 
@@ -100,12 +100,12 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
       <p align="center">
         <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQL-Database-336791?style=flat-square&logo=mysql&logoColor=white" />
         <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
       </p>
       <ul>
         <li><b>Problem:</b> Multi-step checkout churn and race conditions when reserving last-available delivery slots.</li>
-        <li><b>Solution:</b> Server-persisted pure functional state machine with atomic PostgreSQL row-level locks preventing overbooking under high concurrency.</li>
+        <li><b>Solution:</b> Server-persisted pure functional state machine with atomic SQL row-level locks preventing overbooking under high concurrency.</li>
         <li><b>CS Concept:</b> ACID transactions, database row locks, deterministic state machines.</li>
       </ul>
       <p align="center">
@@ -131,37 +131,21 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">💳 <a href="https://github.com/omingole87/spendtracker">SpendTracker Finance Dashboard</a></h3>
+    <td colspan="2" valign="top">
+      <h3 align="center">💳 <a href="https://github.com/omingole87/spendtracker">SpendTracker — Instant Personal Finance Dashboard</a></h3>
       <p align="center">
         <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-B--Tree-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-        <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=flat-square&logo=redis&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQL-Database-336791?style=flat-square&logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
       </p>
       <ul>
         <li><b>Problem:</b> Slow query times when scanning tens of thousands of financial records for monthly analytics.</li>
-        <li><b>Solution:</b> Composite B-tree index `(user_id, occurred_at DESC)` and single-roundtrip PostgreSQL CTE aggregate endpoints with Redis caching.</li>
-        <li><b>CS Concept:</b> Database query optimization, index selectivity, Redis cache-aside.</li>
+        <li><b>Solution:</b> Composite index optimization `(user_id, occurred_at DESC)` and single-roundtrip aggregate queries delivering sub-millisecond responses.</li>
+        <li><b>CS Concept:</b> Query optimization, index selectivity, batch CSV data ingestion.</li>
       </ul>
       <p align="center">
         <a href="https://github.com/omingole87/spendtracker"><b>View Repository »</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">☕ <a href="https://github.com/omingole87">Data Structures & Core CS Repository</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/DSA-Data%20Structures-4B5563?style=flat-square" />
-        <img src="https://img.shields.io/badge/Algorithms-Optimization-059669?style=flat-square" />
-      </p>
-      <ul>
-        <li><b>Problem:</b> Building rigorous algorithmic thinking for competitive problem-solving and technical interviews.</li>
-        <li><b>Solution:</b> Hands-on implementations of Linear & Non-Linear Data Structures, Recursion, Dynamic Programming, and Graph Traversals in Java.</li>
-        <li><b>CS Concept:</b> Time/Space complexity analysis, cache locality, memory overhead.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/omingole87"><b>View Code »</b></a>
       </p>
     </td>
   </tr>
@@ -173,13 +157,16 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
 
 <div align="center">
 
-### 💻 Programming Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+### 💻 Programming Languages & OOP
+![Java](https://img.shields.io/badge/Java_(OOP)-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=mysql&logoColor=white)
+
+### 🗄️ Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### 🌐 Web & Full-Stack Development
 ![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -190,20 +177,14 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### 🗄️ Databases & Caching
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-
 ### 🤖 Computer Vision & AI Tools
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-FF5722?style=for-the-badge)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
-### ⚙️ Developer Tools & DevOps
+### ⚙️ Developer Tools & Workflow
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
@@ -219,10 +200,6 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=omingole87&layout=compact&theme=tokyonight&hide_border=true" height="175" alt="Top Languages" />
 </div>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=omingole87&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
 ---
 
 ## 🎓 Academic Background & IT Coursework
@@ -236,12 +213,11 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
     <li><b>Affiliation:</b> Sant Gadge Baba Amravati University (SGBAU)</li>
     <li><b>Core Academic Coursework:</b>
       <ul>
-        <li>Data Structures & Algorithms (Linear & Non-linear data structures, Sorting & Searching)</li>
-        <li>Object-Oriented Programming (Java & C++)</li>
-        <li>Database Management Systems (Relational algebra, SQL, Normalization, ACID)</li>
-        <li>Computer Networks & Internet Technologies (OSI model, TCP/IP, HTTP/WebSockets)</li>
-        <li>Discrete Mathematics & Logic</li>
-        <li>Operating Systems & System Architecture</li>
+        <li>Object-Oriented Programming (Java) — Encapsulation, Inheritance, Polymorphism, Abstraction, Clean Code</li>
+        <li>Database Management Systems (SQL & MongoDB, Schema Design, ACID, Normalization)</li>
+        <li>Computer Networks & Internet Technologies (OSI model, TCP/IP, HTTP/WebSockets, REST APIs)</li>
+        <li>Operating Systems & System Architecture (Process Management, Threads, Concurrency)</li>
+        <li>Web Technologies & Information Systems Architecture</li>
       </ul>
     </li>
   </ul>
@@ -251,8 +227,9 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
   <summary><b>🎯 2nd-Year Roadmap & Goals (2025 - 2026)</b></summary>
   <br>
   <ul>
-    <li><b>DSA Mastery:</b> Solve 250+ curated problems across LeetCode / GFG, targeting Arrays, Strings, Trees, Graphs, and DP in Java.</li>
-    <li><b>System Design Foundations:</b> Study scalability principles (Load balancing, Caching, DB Sharding, Message Queues).</li>
+    <li><b>Core Java & OOP Mastery:</b> Deep dive into clean object-oriented architecture, modular design patterns, and multithreading in Java.</li>
+    <li><b>Full-Stack Engineering:</b> Building scalable applications with React, Node.js, Express, MongoDB, and SQL.</li>
+    <li><b>System Design Foundations:</b> Study scalability principles (RESTful API design, database indexing, caching, microservices).</li>
     <li><b>Hackathons & Team Projects:</b> Collaborate with peers on real-world civic and college tech solutions.</li>
     <li><b>Internship Readiness:</b> Prepare for Software Development Engineer (SDE) summer internship interviews.</li>
   </ul>
