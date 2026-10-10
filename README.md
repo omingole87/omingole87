@@ -12,6 +12,12 @@
   <img src="https://img.shields.io/badge/Focus-SDE%20Internship%20Prep-EC4899?style=for-the-badge" alt="Internship Prep" />
 </p>
 
+<p align="center">
+  <a href="https://om-ingole.lovable.app" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Live_Personal_Portfolio-om--ingole.lovable.app-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+  </a>
+</p>
+
 ---
 
 </div>
@@ -26,6 +32,7 @@ student:
   role: 2nd Year B.E. / B.Tech Undergrad (Information Technology)
   institution: Shri Sant Gajanan Maharaj College of Engineering (SSGMCE), Shegaon
   location: Maharashtra, India
+  portfolio: https://om-ingole.lovable.app
   current_focus:
     - Object-Oriented Software Design (Java)
     - Full-Stack Web Development & Real-Time WebSockets
@@ -230,6 +237,9 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
 
 <div align="center">
 
+<a href="https://om-ingole.lovable.app" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-om--ingole.lovable.app-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Portfolio" />
+</a>
 <a href="mailto:omingole87@gmail.com">
   <img src="https://img.shields.io/badge/Email-omingole87%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
