@@ -42,6 +42,22 @@ open_to: Collaborative projects, internships, open source contributions
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3 align="center">🚆 <a href="https://github.com/omingole87/transit-board">BharatRail Live — Realtime Transit Pipeline</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+        <img src="https://img.shields.io/badge/WebSocket-Sub--Second%20Push-010101?style=flat-square" />
+        <img src="https://img.shields.io/badge/Indian%20Railways-CRIS%2FIRCTC-FF9933?style=flat-square" />
+        <img src="https://img.shields.io/badge/Bilingual-EN%20%7C%20%E0%A4%B9%E0%A4%BF-138808?style=flat-square" />
+      </p>
+      <ul>
+        <li><b>High-Throughput Departures Fan-out:</b> Sub-second WebSocket push (&lt;15ms p95) across 8 major Indian railway hubs with backpressure isolation.</li>
+        <li><b>Robust Engineering:</b> Server clock-skew compensation, HTTP ETag 304 polling fallback, and GTFS transit simulator with 1-click delay injection.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/omingole87/transit-board"><b>Explore Code »</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <h3 align="center">🔥 <a href="https://github.com/omingole87/fire-smoke-detection">Real-Time Fire & Smoke AI Detection</a></h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -57,6 +73,8 @@ open_to: Collaborative projects, internships, open source contributions
         <a href="https://github.com/omingole87/fire-smoke-detection"><b>Explore Code »</b></a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3 align="center">🛒 <a href="https://github.com/omingole87/groceryflow">GroceryFlow E-Commerce Wizard</a></h3>
       <p align="center">
@@ -73,8 +91,6 @@ open_to: Collaborative projects, internships, open source contributions
         <a href="https://github.com/omingole87/groceryflow"><b>Explore Code »</b></a>
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3 align="center">⚡ <a href="https://github.com/omingole87/invoicekit">InvoiceKit (India Edition)</a></h3>
       <p align="center">
@@ -89,6 +105,24 @@ open_to: Collaborative projects, internships, open source contributions
       </ul>
       <p align="center">
         <a href="https://github.com/omingole87/invoicekit"><b>Explore Code »</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">💳 <a href="https://github.com/omingole87/spendtracker">SpendTracker Finance Dashboard</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-B--Tree-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=flat-square&logo=redis&logoColor=white" />
+      </p>
+      <ul>
+        <li><b>Sub-Millisecond Querying:</b> Engineered around composite B-tree indices `(user_id, occurred_at DESC)` and single-roundtrip PostgreSQL CTE aggregates.</li>
+        <li><b>High-Scale Analytics:</b> Fast category breakdown, monthly budget pacing, CSV batch imports, and automated categorization rules.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/omingole87/spendtracker"><b>Explore Code »</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
