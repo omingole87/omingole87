@@ -104,7 +104,8 @@ Unlike typical student portfolios that only feature basic tutorial clones, I foc
         <li><b>CS Concept:</b> ACID transactions, database row locks, deterministic state machines.</li>
       </ul>
       <p align="center">
-        <a href="https://github.com/omingole87/groceryflow"><b>View Repository »</b></a>
+        <a href="https://omingole87.github.io/groceryflow/"><b>🚀 Launch Live Demo »</b></a> &nbsp;|&nbsp;
+        <a href="https://github.com/omingole87/groceryflow"><b>Code Repository »</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
